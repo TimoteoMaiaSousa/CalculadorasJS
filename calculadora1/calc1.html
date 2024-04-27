@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora web simples</title>
+    <link rel="stylesheet" href="calc1.css">
+    <link rel="shortcut icon" href="calculadoraicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="calc">
+        <div id="res">Resultado:</div>
+        <div class="nums">
+            <label for="">Digite um número:</label>
+            <input type="number"  name="n1" id="n1">
+            <label for="">Digite outro número:</label>
+            <input type="number" name="n2" id="n2">
+        </div>
+        <div class="operadores">
+            <input type="button" value="/" onclick="dividir()">
+            <input type="button" value="x" onclick="multiplicar()">
+            <input type="button" value="-" onclick="subtrair()">
+            <input type="button" value="+" onclick="somar()">
+        </div>
+    </div>
+    <script src="calc1.js"></script>
+</body>
+</html>
