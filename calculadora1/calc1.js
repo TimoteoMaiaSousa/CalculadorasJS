@@ -8,7 +8,7 @@ function dividir(){
     var d = n1 / n2
     res.innerHTML = `${n1} / ${n2} = ${d}`
 }
- function multiplicar(){
+function multiplicar(){
     var nu1 = window.document.getElementById('n1')
     var nu2 = window.document.getElementById('n2')
     var res = window.document.getElementById('res')
